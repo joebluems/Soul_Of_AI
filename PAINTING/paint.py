@@ -16,8 +16,8 @@ print(tf.__version__)
 
 
 ## Inputs
-file_content_image = '/Users/joseph.blue/ART/PAINTING/salzburg.jpg'
-file_style_image = '/Users/joseph.blue/ART/PAINTING/starry_night.jpg'
+file_content_image = './salzburg.jpg'
+file_style_image = './starry_night.jpg'
 
 ## Parameters
 input_noise = 0.1     # proportion noise to apply to content image
@@ -29,7 +29,7 @@ layers_style = ['conv1_1', 'conv2_1', 'conv3_1', 'conv4_1', 'conv5_1']
 layers_style_weights = [0.2,0.2,0.2,0.2,0.2]
 
 ## VGG19 model
-path_VGG19 = '/Users/joseph.blue/ART/PAINTING/imagenet-vgg-verydeep-19.mat'
+path_VGG19 = './imagenet-vgg-verydeep-19.mat'
 # VGG19 mean for standardisation (RGB)
 VGG19_mean = np.array([123.68, 116.779, 103.939]).reshape((1,1,1,3))
 
@@ -41,12 +41,10 @@ path_output = 'output'  # directory to write checkpoint images into
 
 ### Helper functions
 def imread(path):
-    ##return scipy.misc.imread(path).astype(np.float)   # returns RGB format
     return mpl(path).astype(np.float)   # returns RGB format
 
 def imsave(path, img):
     img = np.clip(img, 0, 255).astype(np.uint8)
-    #imsave(path, img)
     mps(path, img) ###jwb
 
 def imgpreprocess(image):
@@ -100,8 +98,6 @@ img_style = imgpreprocess(img_style)
 img_initial = imgpreprocess(img_initial)
 
 #### BUILD VGG19 MODEL
-## with thanks to http://www.chioka.in/tensorflow-implementation-neural-algorithm-of-artistic-style
-
 VGG19 = scipy.io.loadmat(path_VGG19)
 VGG19_layers = VGG19['layers'][0]
 

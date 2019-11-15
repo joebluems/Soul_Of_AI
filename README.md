@@ -4,3 +4,10 @@ This is the companion code to a presentation given at ODSC Europe in November, 2
 
 ![](./tenor.gif)
 
+## Links and References ...
+
+### PAINTING
+
+### WRITING
+
+### COMPOSING

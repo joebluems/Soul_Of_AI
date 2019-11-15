@@ -1,6 +1,6 @@
 # Copying Artistic Style with CNN
 
-![](./monet.jpg)
+![](./writing.gif)
 
 ## Creating the environment
 - Setup the right versions on m

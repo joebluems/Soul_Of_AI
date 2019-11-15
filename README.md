@@ -1,5 +1,5 @@
 # The Soul of a New AI
-Examing how we teach machines to express themselves in art, literature and music...
+Examing how we teach machines to express themselves in art, literature and music... <BR>
 This is the companion code to a presentation given at ODSC Europe in November, 2019.
 
 ![](./tenor.gif)

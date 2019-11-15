@@ -8,7 +8,7 @@
 
 ## Running the Code
 Note: running the code this way should give you the VanGogh results. <BR>
-  Swap out your own style and content photos by changing the image locations in <b>paint.py</b> <BR>  
+Swap out your own style and content photos by changing the image locations in <b>paint.py</b> <BR>  
 
 ```
 > source venv/bin/activate

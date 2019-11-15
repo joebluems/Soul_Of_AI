@@ -9,6 +9,7 @@
 ## Running the Code
 Note: running the code this way should give you the VanGogh results. <BR>
 Swap out your own style and content photos by changing the image locations in <b>paint.py</b> <BR>  
+The first few lines will confirm you have the right TF and SciPy versions... <BR>  
 
 ```
 > source venv/bin/activate
@@ -29,3 +30,5 @@ Type "help", "copyright", "credits" or "license" for more information.
 (venv)> python paint.py
 (venv)> deactivate
 ```
+<BR>
+If this worked, you should see your results with a datetime stamp in the <b>./output</b> folder.

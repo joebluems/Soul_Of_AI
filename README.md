@@ -1,2 +1,2 @@
-# Soul_Of_AI
+# The Soul of a New AIU
  Creating artwork with ML

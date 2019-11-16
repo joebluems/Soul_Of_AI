@@ -17,7 +17,7 @@ This is the companion code to a presentation given at ODSC Europe in November, 2
 - Scholarly paper on Language Models: https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
 
 ### COMPOSING
-- Scholarly paper on Variational AutoEncoder (VAE) in Music: 
+- Scholarly paper on Variational AutoEncoder (VAE) in Music: https://arxiv.org/abs/1803.05428
 - Download Magenta: https://magenta.tensorflow.org
 - Scholarly Paper on Music Transformer (Magenta): https://magenta.tensorflow.org/music-transformer 
 - OpenAI Transformer-Based Language Model: https://openai.com/blog/better-language-models

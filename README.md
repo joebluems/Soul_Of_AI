@@ -22,6 +22,6 @@ This is the companion code to a presentation given at ODSC Europe in November, 2
 - Scholarly Paper on Music Transformer (Magenta): https://magenta.tensorflow.org/music-transformer 
 - OpenAI Transformer-Based Language Model: https://openai.com/blog/better-language-models
 - OpenAI MuseNet: https://openai.com/blog/musenet/
-- Selected Piano Works Performed by Me: 
+- Selected Piano Works Performed by Me: https://www.youtube.com/watch?v=8GWs7WAsoLo&list=PLSsVc4_uD9GtlmOp589UEeDZXswJ1nJbY&index=3&t=0s
 - Moonlight Sonata by OpenAI MuseNet: https://musescore.com/user/9875911/scores/5629448
 - Machine Learning Concerto from Magenta: https://musescore.com/user/9436861/scores/5484656

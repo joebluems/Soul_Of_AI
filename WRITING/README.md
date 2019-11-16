@@ -1,5 +1,5 @@
 # Generating Text with LSTM
-These notebooks construct 
+These notebooks construct an LSTM which learns to generate new text from scratch based on the content you supply. It works really well on an amazing array of text sources. 
 
 ![](./typing.gif)
 

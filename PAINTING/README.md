@@ -3,7 +3,7 @@
 ![](./writing.gif)
 
 ## Creating the environment
-The version of the code I used required a few calories to solve. I got it to work with Tensorflow 1.15 and scipy 1.3.1. Since my regular python has TF=2.0, I set up a virtual environment... <BR>
+The version of the code I used required a few calories to solve. Running on my Mac with fairly large JPG's, this took a modest 30min or so to run. I was able to make it work with Tensorflow 1.15 and scipy 1.3.1. Since my regular python has TF=2.0, I set up a virtual environment... <BR>
 
 ```
 > pip install virtualenv
@@ -39,4 +39,4 @@ Type "help", "copyright", "credits" or "license" for more information.
 (venv)> deactivate
 ```
 <BR>
-If this worked, you should see your results with a datetime stamp in the <b>./output</b> folder.
+If this worked, you should see your results with a datetime stamp in the <b>./output</b> folder. You can change some of the details of the loss function to experiment, but it should work with a wide variety of images and styles.
